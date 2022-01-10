@@ -1,0 +1,39 @@
+body {
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 16px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    background: lightskyblue;
+    padding: 8px;
+    text-align: center;
+}
+
+#etch-box {
+    background: #fff;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#button-box {
+    background: lightcoral;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
